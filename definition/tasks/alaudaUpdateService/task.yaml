@@ -1,0 +1,83 @@
+
+apiVersion: devops.alauda.io/v1alpha1
+kind: PipelineTaskTemplate
+metadata:
+  name: alaudaUpdateService
+  annotations:
+    alauda.io/displayName.zh-CN: 更新服务
+    alauda.io/displayName.en: UpdateService
+    alauda.io/description.zh-CN: 更新服务
+    alauda.io/description.en: UpdateService
+    alauda.io/readme.zh-CN: 更新服务
+    alauda.io/readme.en: UpdateService
+    alauda.io/version: v0.1
+    alauda.io/style.icon: 
+  labels:
+    catgory: CD
+spec:
+  engine: gotpl
+  body: |+
+    script{
+      library 'alaudaee-pipeline'
+      def IMG_TAG = "${params['IMAGE_TAG']}"
+      if("${IMG_TAG}" == "") {
+        	IMG_TAG = "latest"
+      }
+      alaudaEE.setup("{{.ENDPOINT}}", "{{.NAMESPACE}", "{{.TOKEN}}")
+      alaudaEE.updateService("{{.SERVICE_NAME}}", "{{.SPACE_NAME}}", "${IMG_TAG}")
+    }
+  arguments:
+    - name: "ENDPOINT"
+      schema:
+        type: string
+      display:
+        type: string
+        name:
+          zh-CN: "API地址"
+          en: "API Endpoint"
+      required: true
+    - name: "NAMESPACE"
+      schema:
+        type: string
+      display:
+        type: string
+        name:
+          zh-CN: "命名空间"
+          en: "NAMESPACE"
+      required: true
+    - name: "TOKEN"
+      schema:
+        type: string
+      display:
+        type: string
+        name:
+          zh-CN: "账户Token"
+          en: "Account Token"
+      required: true
+    - name: "SPACE_NAME"
+      schema:
+        type: string
+      display:
+        type: string
+        name:
+          zh-CN: "资源空间"
+          en: "Space Name"
+      required: true
+    - name: "REGION"
+      schema:
+        type: string
+      display:
+        type: string
+        name:
+          zh-CN: "集群名"
+          en: "Region Name"
+      required: true
+    - name: "SERVICE_NAME"
+      schema:
+        type: string
+      display:
+        type: string
+        name:
+          zh-CN: "服务名"
+          en: "Service Name"
+      required: true

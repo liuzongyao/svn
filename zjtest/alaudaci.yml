@@ -1,0 +1,8 @@
+pre_ci_boot:
+    image: index-staging.alauda.cn/testorg001/volume-test
+    tag: svn 
+
+ci:
+    - echo "<h1>hello yaml !</h1>" > aayml.txt
+    - cp aayml.txt $ALAUDACI_UPLOAD_DIR
+    - sleep 2

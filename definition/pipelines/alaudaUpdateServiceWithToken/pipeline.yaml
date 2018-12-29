@@ -1,0 +1,97 @@
+apiVersion: devops.alauda.io/v1alpha1
+kind: PipelineTemplate
+metadata:
+  name: alaudaUpdateServiceAcrossRegion
+  annotations:
+    alauda.io/displayName.zh-CN: 跨集群更新服务
+    alauda.io/displayName.en: Update service across region
+    alauda.io/description.zh-CN: 使用api授权方式更新目标区域服务
+    alauda.io/description.en: update service
+    alauda.io/readme.zh-CN: 使用api授权方式更新目标区域服务
+    alauda.io/readme.en: update service
+    alauda.io/version: v0.1
+    alauda.io/style.icon: updateService
+  labels:
+    catgory: CICD
+    target: UpdateService
+    phase: incubator
+spec:
+  engine: graph
+  withSCM: false
+  stages:
+    - name: UpdateService
+      tasks:
+        - name: updateService
+          type: alaudaorg/alaudaUpdateService
+  arguments:
+    - displayName:
+        zh-CN: "基本信息"
+        en: "Basic Info"
+      items:
+        - name: "ENDPOINT"
+          schema:
+            type: string
+          binding:
+            - updateService.args.ENDPOINT
+          display:
+            type: string
+            name:
+              zh-CN: "API地址"
+              en: "API Endpoint"
+          required: true
+        - name: "NAMESPACE"
+          schema:
+            type: string
+          binding:
+            - updateService.args.NAMESPACE
+          display:
+            type: string
+            name:
+              zh-CN: "命名空间"
+              en: "NAMESPACE"
+          required: true
+        - name: "TOKEN"
+          schema:
+            type: string
+          binding:
+            - updateService.args.TOKEN
+          display:
+            type: string
+            name:
+              zh-CN: "账户Token"
+              en: "Account Token"
+          required: true
+        - name: "SPACE_NAME"
+          schema:
+            type: string
+          binding:
+            - updateService.args.SPACE_NAME
+          display:
+            type: string
+            name:
+              zh-CN: "资源空间"
+              en: "Space Name"
+          required: true
+        - name: "REGION"
+          schema:
+            type: string
+          binding:
+            - updateService.args.REGION
+          display:
+            type: string
+            name:
+              zh-CN: "集群名"
+              en: "Region Name"
+          required: true
+        - name: "SERVICE_NAME"
+          schema:
+            type: string
+          binding:
+            - updateService.args.SERVICE_NAME
+          display:
+            type: string
+            name:
+              zh-CN: "服务名"
+              en: "Service Name"
+          required: true
+

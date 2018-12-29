@@ -1,0 +1,13 @@
+pre_ci_boot:
+
+    image: index.alauda.cn/alaudaorg/qaimages
+    tag: svn 
+ci:
+    - cp -r ./* $ALAUDACI_UPLOAD_DIR
+sonarqube:
+  code_encoding: UTF-8
+  code_language: py
+  code_scan_path: ''
+  integration_name: 40886301-8452-4092-85d3-08ae4dbb43a9
+  quality_gate: NoBugs 
+

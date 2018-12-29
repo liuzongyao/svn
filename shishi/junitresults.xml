@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="8" tests="78" time="1708191">
+ <testsuite name="应用 L1级别UI自动化case" timestamp="2018-04-24T10:38:57" hostname="localhost" time="417.278" errors="0" tests="17" skipped="0" disabled="0" failures="0">
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2395:创建应用-模版创建-Java-全部使用默认选项" time="21.841" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2398:创建应用-模版创建-Java-改变默认选项" time="33.113" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2396:创建应用-模版创建-Golang-全部使用默认选项" time="21.019" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2399:创建应用-模版创建-Golang-改变默认选项" time="36.262" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2397:创建应用-模版创建-Python-全部使用默认选项" time="22.325" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2400:创建应用-模版创建-Python-改变默认选项" time="41.669" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2294:创建应用-模版创建-PHP-全部使用默认选项" time="22.323" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2401:创建应用-模版创建-PHP-改变默认选项" time="32.884" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2394:应用详情页-流水线列表-点击流水线名称到流水线详情页" time="9.545" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:Ald-2293:创建应用-yaml创建" time="13.426" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1: Ald-2312:创建应用-镜像创建" time="26.164" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:Ald-2375:创建应用-镜像创建-只输入必填项创建应用" time="24.791" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1: Ald-2345:应用详情页-流水线列表-验证列表数据是否正确" time="15.457" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:AldDevops-2392:应用详情页-流水线列表-流水线搜索功能" time="13.1" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:Ald-2381:应用详情页-流水线列表-删除流水线" time="10.705" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:Ald-2378:应用详情页-增减POD" time="15.382" />
+  <testcase classname="应用 L1级别UI自动化case" name="L1:Ald-2377:应用详情页-YAML更新" time="27.537" />
+ </testsuite>
+ <testsuite name="应用 L2级别UI自动化case" timestamp="2018-04-24T10:45:54" hostname="localhost" time="169.119" errors="0" tests="7" skipped="0" disabled="0" failures="0">
+  <testcase classname="应用 L2级别UI自动化case" name="L2:Ald-2376:创建应用-点击创建应用后的几种创建模式的mini-card的检查" time="12.453" />
+  <testcase classname="应用 L2级别UI自动化case" name="L2:Ald-2298:应用列表-按名称搜索" time="15.497" />
+  <testcase classname="应用 L2级别UI自动化case" name="L2:AldDevops-2393:创建应用-模板创建-PHP-表单的合法性校验" time="15.87" />
+  <testcase classname="应用 L2级别UI自动化case" name="L2:Ald-2303:创建应用-yaml创建-表单的合法性校验" time="12.804" />
+  <testcase classname="应用 L2级别UI自动化case" name="L2:Ald-2379:创建应用-镜像创建-表单的合法性校验" time="17.866" />
+  <testcase classname="应用 L2级别UI自动化case" name="L2:Ald-2304:创建应用-取消" time="40.088" />
+  <testcase classname="应用 L2级别UI自动化case" name="L2:AldDevops-2402:应用详情页-YAML更新-取消" time="10.914" />
+ </testsuite>
+ <testsuite name="Home页 L1级别UI自动化case" timestamp="2018-04-24T10:48:44" hostname="localhost" time="34.478" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Home页 L1级别UI自动化case" name="L1:Ald-2372:Home页-“创建项目”按钮" time="4.88" />
+  <testcase classname="Home页 L1级别UI自动化case" name="L1:Ald-2369:Home页-按名称搜索项目" time="12.496" />
+  <testcase classname="Home页 L1级别UI自动化case" name="L1:Ald-2368:Home页-项目列表-列表数据正确" time="5.826" />
+  <testcase classname="Home页 L1级别UI自动化case" name="L1:Ald-2370:Home页-点击项目名称-到这个项目的项目管理" time="7.277" />
+ </testsuite>
+ <testsuite name="Jenkins L1级别UI自动化case" timestamp="2018-04-24T10:49:18" hostname="localhost" time="92.192" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Jenkins L1级别UI自动化case" name="L1:Ald-2215:集成jenkins服务-所有项输入，集成成功" time="19.057" />
+  <testcase classname="Jenkins L1级别UI自动化case" name="L1:Ald-2274:集成Jenkins服务-只输入名称和服务地址创建成功" time="22.384" />
+  <testcase classname="Jenkins L1级别UI自动化case" name="L1:Ald-2222:更新jenkins服务-无效地址-更新成功" time="24.437" />
+  <testcase classname="Jenkins L1级别UI自动化case" name="L1:Ald-2223:更新jenkins服务-有效地址-更新成功" time="22.108" />
+ </testsuite>
+ <testsuite name="Jenkins L2级别UI自动化case" timestamp="2018-04-24T10:50:50" hostname="localhost" time="67.332" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Jenkins L2级别UI自动化case" name="L2:Ald-2225:服务列表页-按名称搜索" time="13.999" />
+  <testcase classname="Jenkins L2级别UI自动化case" name="L2:Ald-2217:集成jenkins服务-创建时的合法验证" time="20.363" />
+  <testcase classname="Jenkins L2级别UI自动化case" name="L2:Ald-2220:集成jenkins服务-取消-返回列表页" time="9.47" />
+  <testcase classname="Jenkins L2级别UI自动化case" name="L2:Ald-2224:更新jenkins-取消-返回详情页" time="18.277" />
+ </testsuite>
+ <testsuite name="成员 L1级别UI自动化case" timestamp="2018-04-24T10:51:58" hostname="localhost" time="29.505" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="成员 L1级别UI自动化case" name="L1: 添加成员" time="18.589" />
+  <testcase classname="成员 L1级别UI自动化case" name="L2:删除已经添加的成员" time="6.541" />
+ </testsuite>
+ <testsuite name="流水线 L2级别UI自动化case" timestamp="2018-04-24T10:52:27" hostname="localhost" time="101.937" errors="0" tests="7" skipped="0" disabled="0" failures="0">
+  <testcase classname="流水线 L2级别UI自动化case" name="L2:Ald-2350:流水线列表-搜索功能" time="15.684" />
+  <testcase classname="流水线 L2级别UI自动化case" name="L2:Ald-2351:流水线列表-操作-执行" time="8.489" />
+  <testcase classname="流水线 L2级别UI自动化case" name="L2:Ald-2355:流水线详情-执行" time="8.421" />
+  <testcase classname="流水线 L2级别UI自动化case" name="L2:Ald-2355:流水线详情-再次执行-取消执行" time="9.668" />
+  <testcase classname="流水线 L2级别UI自动化case" name="L2:Ald-2354:流水线详情-基本信息展示" time="7.695" />
+  <testcase classname="流水线 L2级别UI自动化case" name="L2:AldDevops-2361:流水线详情-Jenkinsfile-更新Jenkinsfile" time="11.548" />
+  <testcase classname="流水线 L2级别UI自动化case" name="L2:Ald-2362:流水线详情-Jenkinsfile-取消" time="12.135" />
+ </testsuite>
+ <testsuite name="项目 L1级别UI自动化case" timestamp="2018-04-24T10:54:09" hostname="localhost" time="161.435" errors="0" tests="10" skipped="0" disabled="0" failures="0">
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2201: 创建项目-项目创建成功" time="16.997" />
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2273: 创建项目-只输入项目名称-项目创建成功" time="12.149" />
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2277:项目列表页-点击项目名称到项目详情页" time="6.857" />
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2204:更新项目-项目更新成功" time="17.976" />
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2208:项目详情页-4个tab页切换-数据正确" time="12.32" />
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2209:项目详情页-服务tab-绑定jenkins服务-成功绑定" time="17.69" />
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2214:项目详情页-资源tab-添加Secret-添加成功" time="23.562" />
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2275:项目详情页-成员tab-添加成员" time="21.648" />
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2316:项目详情页-成员tab-删除已经添加的成员" time="8.424" />
+  <testcase classname="项目 L1级别UI自动化case" name="L1:Ald-2221:项目详情页-删除项目-删除成功" time="12.917" />
+ </testsuite>
+ <testsuite name="项目 L2级别UI自动化case" timestamp="2018-04-24T10:56:50" hostname="localhost" time="91.135" errors="0" tests="6" skipped="0" disabled="0" failures="0">
+  <testcase classname="项目 L2级别UI自动化case" name="L2:Ald-2207:项目列表页-搜索项目" time="14.528" />
+  <testcase classname="项目 L2级别UI自动化case" name="L2:Ald-2203:创建项目-取消项目创建-返回列表页" time="19.75" />
+  <testcase classname="项目 L2级别UI自动化case" name="L2:Ald-2202:创建项目-表单的合法验证" time="13.841" />
+  <testcase classname="项目 L2级别UI自动化case" name="L2:Ald-2206:更新项目-取消项目更新-返回到项目详情页" time="15.496" />
+  <testcase classname="项目 L2级别UI自动化case" name="L2:Ald-2212:项目详情页-服务tab-绑定jenkins服务-取消绑定" time="11.263" />
+  <testcase classname="项目 L2级别UI自动化case" name="L2:Ald-2216:项目详情页-资源tab-添加Secret-取消添加Secret" time="11.288" />
+ </testsuite>
+ <testsuite name="项目管理中的Secret L1级别UI自动化case" timestamp="2018-04-24T10:58:22" hostname="localhost" time="313.067" errors="0" tests="5" skipped="0" disabled="0" failures="8">
+  <testcase classname="项目管理中的Secret L1级别UI自动化case" name="L1:Ald-2382:Secret-创建Secret-Secret创建成功(类型选择用户名/密码)" time="6.962">
+   <failure type="exception" message="Failed: No element found using locator: By(xpath, //a[contains(@class, &quot;switch-projects&quot;)])"><![CDATA[NoSuchElementError: No element found using locator: By(xpath, //a[contains(@class, "switch-projects")])
+    at WebDriverError (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/error.js:27:5)
+    at NoSuchElementError (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/error.js:168:5)
+    at elementArrayFinder.getWebElements.then (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function) [as getText] (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function) [as getText] (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:873:14)
+    at AlaudaText.getText (/Users/alauda/go/src/alauda.io/diablo/e2e/element_objects/alauda.text.ts:35:31)
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:62:51)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+From: Task: Run beforeEach in control flow
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:94:19)
+    at attempt (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4486:26)
+    at QueueRunner.run (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4402:20)
+    at QueueRunner.execute (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4384:10)
+    at Spec.queueRunnerFactory (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:964:35)
+    at Spec.execute (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:563:10)
+    at UserContext.fn (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5541:37)
+    at attempt (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4486:26)
+    at QueueRunner.run (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4402:20)
+    at runNext (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4446:20)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4453:13
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4356:12
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:64:48
+    at ControlFlow.emit (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/events.js:62:21)
+    at ControlFlow.shutdown_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+    at shutdownTask_.MicroTask (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:58:3)
+    at addSpecsToSuite (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1181:25)
+    at Env.describe (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1145:7)
+    at describe (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4593:18)
+    at Object.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:11:1)
+    at Module._compile (module.js:570:32)
+    at Module.m._compile (/Users/alauda/go/src/alauda.io/diablo/node_modules/ts-node/src/index.ts:392:23)
+    at Module._extensions..js (module.js:579:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (/Users/alauda/go/src/alauda.io/diablo/node_modules/ts-node/src/index.ts:395:12)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/lib/jasmine.js:93:5]]>
+   </failure>
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, span)"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, span)
+    at WebDriverError (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/error.js:27:5)
+    at NoSuchElementError (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/error.js:168:5)
+    at elementArrayFinder.getWebElements.then (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function) [as getText] (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function) [as getText] (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:873:14)
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:80:61)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+From: Task: Run it("L1:Ald-2382:Secret-创建Secret-Secret创建成功(类型选择用户名/密码)") in control flow
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:94:19)
+    at attempt (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4486:26)
+    at QueueRunner.run (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4402:20)
+    at runNext (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4446:20)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4453:13
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4356:12
+    at Function.next.fail (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4463:9)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:64:48
+    at ControlFlow.emit (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/events.js:62:21)
+    at ControlFlow.shutdown_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+    at shutdownTask_.MicroTask (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+    at MicroTask.asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2619:9)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:72:3)
+    at addSpecsToSuite (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1181:25)
+    at Env.describe (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1145:7)
+    at describe (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4593:18)
+    at Object.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:11:1)
+    at Module._compile (module.js:570:32)
+    at Module.m._compile (/Users/alauda/go/src/alauda.io/diablo/node_modules/ts-node/src/index.ts:392:23)
+    at Module._extensions..js (module.js:579:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (/Users/alauda/go/src/alauda.io/diablo/node_modules/ts-node/src/index.ts:395:12)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/lib/jasmine.js:93:5]]>
+   </failure>
+  </testcase>
+  <testcase classname="项目管理中的Secret L1级别UI自动化case" name="L1:Ald-2383:Secret-创建Secret-Secret创建成功(类型选择镜像服务)" time="27.979" />
+  <testcase classname="项目管理中的Secret L1级别UI自动化case" name="L1:Ald-2384:Secret-创建Secret-Secret创建成功(类型选择Opaque)" time="22.728" />
+  <testcase classname="项目管理中的Secret L1级别UI自动化case" name="L1:Ald-2385:Secret-详情页更新Secret-更新成功" time="124.347">
+   <failure type="exception" message="Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."><![CDATA[Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4470:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)]]>
+   </failure>
+   <failure type="toBeTruthy" message="Expected false to be truthy."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:170:97)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)]]>
+   </failure>
+   <failure type="exception" message="Failed: No element found using locator: By(xpath, //*[@href=&quot;#/workspace/autoproject-insecretapi1/secrets/auto-secretname-user&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(xpath, //*[@href="#/workspace/autoproject-insecretapi1/secrets/auto-secretname-user"])
+    at WebDriverError (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/error.js:27:5)
+    at NoSuchElementError (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/error.js:168:5)
+    at elementArrayFinder.getWebElements.then (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function) [as click] (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function) [as click] (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:873:14)
+    at AlaudaList.clickNameInlistPage (/Users/alauda/go/src/alauda.io/diablo/e2e/element_objects/alauda.list.ts:40:19)
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:171:67)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+From: Task: Run it("L1:Ald-2385:Secret-详情页更新Secret-更新成功") in control flow
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:94:19)
+    at attempt (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4486:26)
+    at QueueRunner.run (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4402:20)
+    at runNext (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4446:20)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4453:13
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4356:12
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:64:48
+    at ControlFlow.emit (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/events.js:62:21)
+    at ControlFlow.shutdown_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+    at shutdownTask_.MicroTask (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+    at MicroTask.asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2619:9)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:168:3)
+    at addSpecsToSuite (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1181:25)
+    at Env.describe (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1145:7)
+    at describe (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4593:18)
+    at Object.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:11:1)
+    at Module._compile (module.js:570:32)
+    at Module.m._compile (/Users/alauda/go/src/alauda.io/diablo/node_modules/ts-node/src/index.ts:392:23)
+    at Module._extensions..js (module.js:579:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (/Users/alauda/go/src/alauda.io/diablo/node_modules/ts-node/src/index.ts:395:12)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/lib/jasmine.js:93:5]]>
+   </failure>
+  </testcase>
+  <testcase classname="项目管理中的Secret L1级别UI自动化case" name="L1:Ald-2386:Secret-列表页更新Secret-更新成功" time="124.397">
+   <failure type="exception" message="Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."><![CDATA[Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4470:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)]]>
+   </failure>
+   <failure type="toBeTruthy" message="Expected false to be truthy."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:198:97)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)]]>
+   </failure>
+   <failure type="exception" message="Failed: No element found using locator: By(xpath, //a[@href=&quot;#/workspace/autoproject-insecretapi1/secrets/auto-secretname-user&quot;]/../..//a[contains(@class, &quot;alo-menu-button&quot;)])"><![CDATA[NoSuchElementError: No element found using locator: By(xpath, //a[@href="#/workspace/autoproject-insecretapi1/secrets/auto-secretname-user"]/../..//a[contains(@class, "alo-menu-button")])
+    at WebDriverError (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/error.js:27:5)
+    at NoSuchElementError (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/error.js:168:5)
+    at elementArrayFinder.getWebElements.then (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function) [as click] (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function) [as click] (/Users/alauda/go/src/alauda.io/diablo/node_modules/protractor/lib/element.ts:873:14)
+    at AlaudaList.clickOperateAllButton (/Users/alauda/go/src/alauda.io/diablo/e2e/element_objects/alauda.list.ts:45:27)
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:199:76)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+From: Task: Run it("L1:Ald-2386:Secret-列表页更新Secret-更新成功") in control flow
+    at UserContext.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:94:19)
+    at attempt (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4486:26)
+    at QueueRunner.run (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4402:20)
+    at runNext (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4446:20)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4453:13
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4356:12
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasminewd2/index.js:64:48
+    at ControlFlow.emit (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/events.js:62:21)
+    at ControlFlow.shutdown_ (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2565:10)
+    at shutdownTask_.MicroTask (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2490:53)
+    at MicroTask.asyncRun (/Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:2619:9)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:196:3)
+    at addSpecsToSuite (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1181:25)
+    at Env.describe (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1145:7)
+    at describe (/Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4593:18)
+    at Object.<anonymous> (/Users/alauda/go/src/alauda.io/diablo/e2e/tests/secrets-Inproject/L1.secrets-Inproject.e2e-spec.ts:11:1)
+    at Module._compile (module.js:570:32)
+    at Module.m._compile (/Users/alauda/go/src/alauda.io/diablo/node_modules/ts-node/src/index.ts:392:23)
+    at Module._extensions..js (module.js:579:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (/Users/alauda/go/src/alauda.io/diablo/node_modules/ts-node/src/index.ts:395:12)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /Users/alauda/go/src/alauda.io/diablo/node_modules/jasmine/lib/jasmine.js:93:5]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="项目管理中的Secret L2级别UI自动化case" timestamp="2018-04-24T11:03:35" hostname="localhost" time="64.622" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="项目管理中的Secret L2级别UI自动化case" name="L2:AldDevops-2387:Secret列表页-搜索Secret" time="13.288" />
+  <testcase classname="项目管理中的Secret L2级别UI自动化case" name="L2:AldDevops-2388:Secret-创建Secret-创建Secret时的合法验证" time="14.985" />
+  <testcase classname="项目管理中的Secret L2级别UI自动化case" name="L2:AldDevops-2389:Secret-创建Secret页-取消创建-返回列表页" time="8.42" />
+  <testcase classname="项目管理中的Secret L2级别UI自动化case" name="L2:AldDevops-2390:Secret-更新Secret页-取消更新-返回到Secret详情页" time="16.768" />
+ </testsuite>
+ <testsuite name="Secret L1级别UI自动化case" timestamp="2018-04-24T11:04:39" hostname="localhost" time="106.982" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Secret L1级别UI自动化case" name="L1:Ald-2218:Secret管理-创建Secret-Secret创建成功(类型选择用户名/密码)" time="24.762" />
+  <testcase classname="Secret L1级别UI自动化case" name="L1:Ald-2230:Secret管理-创建Secret-Secret创建成功(类型选择镜像服务)" time="28.508" />
+  <testcase classname="Secret L1级别UI自动化case" name="L1:Ald-2231:Secret管理-创建Secret-Secret创建成功(类型选择Opaque)" time="23.202" />
+  <testcase classname="Secret L1级别UI自动化case" name="L1:Ald-2232:Secret管理-更新Secret-更新成功" time="20.596" />
+ </testsuite>
+ <testsuite name="Secret L2级别UI自动化case" timestamp="2018-04-24T11:06:26" hostname="localhost" time="59.109" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Secret L2级别UI自动化case" name="L2:Ald-2236:Secret管理列表页-搜索Secret" time="13.142" />
+  <testcase classname="Secret L2级别UI自动化case" name="L2:Ald-2219:Secret管理-创建Secret-创建Secret时的合法验证" time="14.848" />
+  <testcase classname="Secret L2级别UI自动化case" name="L2:Ald-2234:Secret管理-创建Secret页-取消创建-返回列表页" time="8.493" />
+  <testcase classname="Secret L2级别UI自动化case" name="L2:Ald-2235:Secret管理-更新Secret页-取消更新-返回到Secret详情页" time="15.389" />
+ </testsuite>
+</testsuites>

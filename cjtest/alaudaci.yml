@@ -1,0 +1,7 @@
+pre_ci_boot:
+    image: index.alauda.cn/alauda/hello-world
+    tag: latest
+
+ci:
+    - echo "<h1>hello yaml !</h1>" > aayml.txt
+    - sleep 2
